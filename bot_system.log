@@ -1,0 +1,1504 @@
+2025-11-08 14:39:24,823 - telethon.crypto.libssl - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-11-08 14:39:24,829 - telethon.crypto.aes - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-11-08 14:39:27,872 - telegram.ext.Application - INFO - Application started
+2025-11-08 14:39:28,834 - telethon.crypto.libssl - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-11-08 14:39:28,835 - telethon.crypto.aes - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-11-08 14:39:30,269 - userbot - INFO - ✅ UserBot уже авторизован как: Дмитрий (@medvedmitry)
+2025-11-08 14:40:29,733 - main_bot - INFO - 🤖 Бот добавлен в группу -5081190165 пользователем 8262248895
+2025-11-08 14:40:30,489 - main_bot - INFO - 🕐 Попытка 1: Бот еще не администратор в чате -5081190165
+2025-11-08 14:40:32,595 - main_bot - INFO - 🕐 Попытка 2: Бот еще не администратор в чате -5081190165
+2025-11-08 14:40:34,707 - main_bot - INFO - ✅ Бот получил права администратора в чате -5081190165
+2025-11-08 14:40:35,580 - main_bot - INFO - 🔗 Создана пригласительная ссылка для чата -5081190165: https://t.me/+Y1oJ_VhB1Bs3NWMx
+2025-11-08 14:40:35,590 - main_bot - INFO - 📝 Группа test добавлена в очередь (ID: 7)
+2025-11-08 14:40:36,246 - main_bot - INFO - 🌐 Веб-проверка: latest_id=100, oldest_id=1, diff=99, passed=True
+2025-11-08 14:40:36,457 - main_bot - INFO - ⏳ Ожидаю UserBot для группы -5081190165
+2025-11-08 14:40:36,457 - main_bot - INFO - ⏳ Ожидаю завершения UserBot проверки для группы -5081190165
+2025-11-08 14:40:40,734 - userbot - INFO - 🔄 Обрабатываем группу: test
+2025-11-08 14:40:40,748 - userbot - INFO - 🔄 Пытаюсь присоединиться к группе: https://t.me/+Y1oJ_VhB1Bs3NWMx
+2025-11-08 14:40:40,861 - userbot - WARNING - Метод 1 не сработал: Cannot get entity from a channel (or group) that you are not part of. Join the group and retry
+2025-11-08 14:40:41,130 - userbot - INFO - ✅ Успешно присоединились (метод 2): https://t.me/+Y1oJ_VhB1Bs3NWMx
+2025-11-08 14:40:44,298 - userbot - INFO - 🔍 Ищу самое первое сообщение в группе...
+2025-11-08 14:40:44,422 - userbot - INFO - 📅 Дата создания из первого сообщения: 8.11.2025
+2025-11-08 14:40:44,649 - userbot - INFO - 🔍 Проверка импорта: статус=normal, saved_peer=0, imported_flag=0
+2025-11-08 14:40:45,011 - userbot - INFO - ✅ UserBot анализ завершен для test
+2025-11-08 14:40:45,029 - userbot - INFO - ✅ UserBot завершил проверку группы: test
+2025-11-08 14:40:46,491 - main_bot - INFO - ✅ UserBot завершил проверку группы -5081190165
+2025-11-08 14:40:47,411 - main_bot - INFO - ✅ Полная проверка группы test завершена
+2025-11-08 14:40:47,518 - userbot - INFO - ✅ Успешно вышел из группы (метод 1): -5081190165
+2025-11-08 14:40:47,519 - userbot - INFO - ✅ UserBot вышел из группы после проверки: test
+2025-11-08 14:46:58,955 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-11-08 14:46:58,957 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-11-08 14:46:58,957 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-11-08 14:46:58,959 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:46:59,986 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:36,181 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:46:58,957 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ReadError: 
+2025-11-08 14:59:36,606 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-11-08 14:59:37,240 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:38,190 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-11-08 14:59:38,435 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:39,565 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:41,388 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-11-08 14:59:41,935 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:43,002 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:44,007 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:44,761 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-11-08 14:59:45,210 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:46,254 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:47,290 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:49,349 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:49,826 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-11-08 14:59:50,357 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:51,348 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 14:59:52,353 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:07:50,839 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-11-08 15:07:50,841 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-11-08 15:07:50,842 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-11-08 15:07:50,844 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:07:50,839 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ReadError: 
+2025-11-08 15:07:51,886 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:07:52,031 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-11-08 15:19:02,358 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:03,016 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-11-08 15:19:04,628 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:05,551 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-11-08 15:19:05,701 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:06,966 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:09,152 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:09,166 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-11-08 15:19:10,162 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:11,326 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:12,352 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:13,373 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:14,368 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-11-08 15:19:14,414 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:16,428 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:17,429 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+2025-11-08 15:19:22,072 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-11-08 16:12:16,180 - telegram.ext - ERROR - Network Retry Loop (Polling Updates): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 134, in network_retry_loop
+    await do_action()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 127, in do_action
+    action_cb_task.result()
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 676, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 4780, in get_updates
+    await self._post(
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+2025-11-08 18:19:04,444 - telethon.network.mtprotosender - ERROR - Unhandled error while processing msgs
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 552, in _recv_loop
+    await self._process_message(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 567, in _process_message
+    await handler(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 665, in _handle_gzip_packed
+    message.obj = reader.tgread_object()
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 32705, in from_reader
+    _x = reader.tgread_object()
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 30902, in from_reader
+    _message = reader.tgread_object()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 140, in tgread_object
+    raise error
+telethon.errors.common.TypeNotFoundError: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID eabcdd4d. See the FAQ for more details. Remaining bytes: b'M\xdd\xbc\xea\x82\x01\x00\x00\x00\x00\x00\x00\x8a\x01\x00\x00"\x17QY\xa6\x92\xdf\xee\x01\x00\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00=\'\x0fi\x06/start\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\xc7\x8a\xefl\x00\x00\x00\x00\x06\x00\x00\x00\xb2\x03\x00\x00\x01\x00\x00\x00\xbf!//"\x17QY\x00o\x9f\n\x00\x00\x00\x00\x8a\x01\x00\x00\xb3\x03\x00\x00\x01\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00"\x14\x0b\x02\x7f\x04\x00\x02\x10D\x00\x00\xa6\x92\xdf\xee\x01\x00\x00\x00m\xc8Q\xf1\xac\xfd\xd8>\x0e\xd0\x94\xd0\xbc\xd0\xb8\xd1\x82\xd1\x80\xd0\xb8\xd0\xb9\x00\x10\xd0\x9c\xd0\xb5\xd0\xb4\xd0\xb2\xd0\xb5\xd0\xb4\xd0\xb5\xd0\xb2\x00\x00\x00\x0bmedvedmitry\x0b79991097750\x06\xf7\xd1\x82\x02\x00\x00\x00T\x0bk\x1b:\xd9XH\x13\x01\x08\x08d\x8f\x06\xd6\x92+tu$\x80zb\x8a(\xa0\x0f\x02\x00\x00\x00I9\xb9\xedY(\x0fixd\x00\x00JU\xa0K"\x14\x0b\x02+@\x02\x02\x10\x10\x00\x00\x00o\x9f\n\x00\x00\x00\x00\x15\xb6>VY\xec\xc0\x86\rSpam Info Bot\x00\x00\x07SpamBot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x00o\x9f\n\x13\x01\x08\x08\xb9\xf2l\xe86m\xf6\xff\x009\xa2\x8a*Nv\xcf\x04\x00\x00\x00\x04\x00\x00\x00jS!\x02\x15\xc4\xb5\x1c\x00\x00\x00\x00<\'\x0fi\x00\x00\x00\x00'
+2025-11-08 18:19:04,775 - telethon.network.mtprotosender - ERROR - Unhandled error while processing msgs
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 552, in _recv_loop
+    await self._process_message(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 567, in _process_message
+    await handler(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 665, in _handle_gzip_packed
+    message.obj = reader.tgread_object()
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 32705, in from_reader
+    _x = reader.tgread_object()
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 30902, in from_reader
+    _message = reader.tgread_object()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 140, in tgread_object
+    raise error
+telethon.errors.common.TypeNotFoundError: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID eabcdd4d. See the FAQ for more details. Remaining bytes: b'M\xdd\xbc\xea\xc0\x00\x00\x00\x00\x00\x00\x00\x8b\x01\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00=\'\x0fi{Your account was blocked for violations of the Telegram Terms of Service based on user reports confirmed by our moderators.\xd1\x99\xdd\x85\x01\x00\x00\x00\x15\xc4\xb5\x1c\x04\x00\x00\x00\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\nUnderstood\x00\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\x13I won\'t do it again\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\x15My account was hacked\x00\x00\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\x11This is a mistake\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\'\xd3\xa6v/\x00\x00\x00\x19\x00\x00\x00\x18https://telegram.org/tos\x00\x00\x00\xb4\x03\x00\x00\x01\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00"\x14\x0b\x02+@\x02\x02\x10\x10\x00\x00\x00o\x9f\n\x00\x00\x00\x00\x15\xb6>VY\xec\xc0\x86\rSpam Info Bot\x00\x00\x07SpamBot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x00o\x9f\n\x13\x01\x08\x08\xb9\xf2l\xe86m\xf6\xff\x009\xa2\x8a*Nv\xcf\x04\x00\x00\x00\x04\x00\x00\x00jS!\x02"\x14\x0b\x02\x7f\x04\x00\x02\x10D\x00\x00\xa6\x92\xdf\xee\x01\x00\x00\x00m\xc8Q\xf1\xac\xfd\xd8>\x0e\xd0\x94\xd0\xbc\xd0\xb8\xd1\x82\xd1\x80\xd0\xb8\xd0\xb9\x00\x10\xd0\x9c\xd0\xb5\xd0\xb4\xd0\xb2\xd0\xb5\xd0\xb4\xd0\xb5\xd0\xb2\x00\x00\x00\x0bmedvedmitry\x0b79991097750\x06\xf7\xd1\x82\x02\x00\x00\x00T\x0bk\x1b:\xd9XH\x13\x01\x08\x08d\x8f\x06\xd6\x92+tu$\x80zb\x8a(\xa0\x0f\x02\x00\x00\x00I9\xb9\xedY(\x0fixd\x00\x00JU\xa0K\x15\xc4\xb5\x1c\x00\x00\x00\x00<\'\x0fi\x00\x00\x00\x00'
+2025-11-08 18:19:10,665 - telethon.network.mtprotosender - ERROR - Unhandled error while processing msgs
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 552, in _recv_loop
+    await self._process_message(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 567, in _process_message
+    await handler(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 665, in _handle_gzip_packed
+    message.obj = reader.tgread_object()
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 32705, in from_reader
+    _x = reader.tgread_object()
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 30902, in from_reader
+    _message = reader.tgread_object()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 140, in tgread_object
+    raise error
+telethon.errors.common.TypeNotFoundError: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID eabcdd4d. See the FAQ for more details. Remaining bytes: b'M\xdd\xbc\xea\x02\x01\x00\x00\x00\x00\x00\x00\x8c\x01\x00\x00"\x17QY\xa6\x92\xdf\xee\x01\x00\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00C\'\x0fi\x11This is a mistake\x00\x00\xb5\x03\x00\x00\x01\x00\x00\x00\xbf!//"\x17QY\x00o\x9f\n\x00\x00\x00\x00\x8c\x01\x00\x00\xb6\x03\x00\x00\x01\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00"\x14\x0b\x02\x7f\x04\x00\x02\x10D\x00\x00\xa6\x92\xdf\xee\x01\x00\x00\x00m\xc8Q\xf1\xac\xfd\xd8>\x0e\xd0\x94\xd0\xbc\xd0\xb8\xd1\x82\xd1\x80\xd0\xb8\xd0\xb9\x00\x10\xd0\x9c\xd0\xb5\xd0\xb4\xd0\xb2\xd0\xb5\xd0\xb4\xd0\xb5\xd0\xb2\x00\x00\x00\x0bmedvedmitry\x0b79991097750\x06\xf7\xd1\x82\x02\x00\x00\x00T\x0bk\x1b:\xd9XH\x13\x01\x08\x08d\x8f\x06\xd6\x92+tu$\x80zb\x8a(\xa0\x0f\x02\x00\x00\x00I9\xb9\xedY(\x0fixd\x00\x00JU\xa0K"\x14\x0b\x02+@\x02\x02\x10\x10\x00\x00\x00o\x9f\n\x00\x00\x00\x00\x15\xb6>VY\xec\xc0\x86\rSpam Info Bot\x00\x00\x07SpamBot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x00o\x9f\n\x13\x01\x08\x08\xb9\xf2l\xe86m\xf6\xff\x009\xa2\x8a*Nv\xcf\x04\x00\x00\x00\x04\x00\x00\x00jS!\x02\x15\xc4\xb5\x1c\x00\x00\x00\x00B\'\x0fi\x00\x00\x00\x00'
+2025-11-08 18:19:10,687 - telethon.network.mtprotosender - ERROR - Unhandled error while processing msgs
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 552, in _recv_loop
+    await self._process_message(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 567, in _process_message
+    await handler(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 665, in _handle_gzip_packed
+    message.obj = reader.tgread_object()
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 32705, in from_reader
+    _x = reader.tgread_object()
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 30902, in from_reader
+    _message = reader.tgread_object()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 140, in tgread_object
+    raise error
+telethon.errors.common.TypeNotFoundError: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID eabcdd4d. See the FAQ for more details. Remaining bytes: b'M\xdd\xbc\xea@\x00\x00\x00\x00\x00\x00\x00\x8d\x01\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00C\'\x0fi\xfe\x0e\x01\x00If you think your account was blocked by mistake, you can submit a complaint. All complaints will be reviewed by the team\xe2\x80\x99s supervisor. Please note that this will have no effect on limitations that were applied with a good reason. Would you like to submit a complaint?\x00\x00\xd1\x99\xdd\x85\x01\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\x02No\x00\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\x03Yes\xb7\x03\x00\x00\x01\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00"\x14\x0b\x02+@\x02\x02\x10\x10\x00\x00\x00o\x9f\n\x00\x00\x00\x00\x15\xb6>VY\xec\xc0\x86\rSpam Info Bot\x00\x00\x07SpamBot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x00o\x9f\n\x13\x01\x08\x08\xb9\xf2l\xe86m\xf6\xff\x009\xa2\x8a*Nv\xcf\x04\x00\x00\x00\x04\x00\x00\x00jS!\x02"\x14\x0b\x02\x7f\x04\x00\x02\x10D\x00\x00\xa6\x92\xdf\xee\x01\x00\x00\x00m\xc8Q\xf1\xac\xfd\xd8>\x0e\xd0\x94\xd0\xbc\xd0\xb8\xd1\x82\xd1\x80\xd0\xb8\xd0\xb9\x00\x10\xd0\x9c\xd0\xb5\xd0\xb4\xd0\xb2\xd0\xb5\xd0\xb4\xd0\xb5\xd0\xb2\x00\x00\x00\x0bmedvedmitry\x0b79991097750\x06\xf7\xd1\x82\x02\x00\x00\x00T\x0bk\x1b:\xd9XH\x13\x01\x08\x08d\x8f\x06\xd6\x92+tu$\x80zb\x8a(\xa0\x0f\x02\x00\x00\x00I9\xb9\xedY(\x0fixd\x00\x00JU\xa0K\x15\xc4\xb5\x1c\x00\x00\x00\x00B\'\x0fi\x00\x00\x00\x00'
+2025-11-08 18:19:12,423 - telethon.network.mtprotosender - ERROR - Unhandled error while processing msgs
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 552, in _recv_loop
+    await self._process_message(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 567, in _process_message
+    await handler(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 665, in _handle_gzip_packed
+    message.obj = reader.tgread_object()
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 32705, in from_reader
+    _x = reader.tgread_object()
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 30902, in from_reader
+    _message = reader.tgread_object()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 140, in tgread_object
+    raise error
+telethon.errors.common.TypeNotFoundError: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID eabcdd4d. See the FAQ for more details. Remaining bytes: b'M\xdd\xbc\xea\x02\x01\x00\x00\x00\x00\x00\x00\x8e\x01\x00\x00"\x17QY\xa6\x92\xdf\xee\x01\x00\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00E\'\x0fi\x03Yes\xb8\x03\x00\x00\x01\x00\x00\x00\xbf!//"\x17QY\x00o\x9f\n\x00\x00\x00\x00\x8e\x01\x00\x00\xb9\x03\x00\x00\x01\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00"\x14\x0b\x02\x7f\x04\x00\x02\x10D\x00\x00\xa6\x92\xdf\xee\x01\x00\x00\x00m\xc8Q\xf1\xac\xfd\xd8>\x0e\xd0\x94\xd0\xbc\xd0\xb8\xd1\x82\xd1\x80\xd0\xb8\xd0\xb9\x00\x10\xd0\x9c\xd0\xb5\xd0\xb4\xd0\xb2\xd0\xb5\xd0\xb4\xd0\xb5\xd0\xb2\x00\x00\x00\x0bmedvedmitry\x0b79991097750\x06\xf7\xd1\x82\x02\x00\x00\x00T\x0bk\x1b:\xd9XH\x13\x01\x08\x08d\x8f\x06\xd6\x92+tu$\x80zb\x8a(\xa0\x0f\x02\x00\x00\x00I9\xb9\xedY(\x0fixd\x00\x00JU\xa0K"\x14\x0b\x02+@\x02\x02\x10\x10\x00\x00\x00o\x9f\n\x00\x00\x00\x00\x15\xb6>VY\xec\xc0\x86\rSpam Info Bot\x00\x00\x07SpamBot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x00o\x9f\n\x13\x01\x08\x08\xb9\xf2l\xe86m\xf6\xff\x009\xa2\x8a*Nv\xcf\x04\x00\x00\x00\x04\x00\x00\x00jS!\x02\x15\xc4\xb5\x1c\x00\x00\x00\x00D\'\x0fi\x00\x00\x00\x00'
+2025-11-08 18:19:12,435 - telethon.network.mtprotosender - ERROR - Unhandled error while processing msgs
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 552, in _recv_loop
+    await self._process_message(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 567, in _process_message
+    await handler(message)
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 665, in _handle_gzip_packed
+    message.obj = reader.tgread_object()
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 32705, in from_reader
+    _x = reader.tgread_object()
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\__init__.py", line 30902, in from_reader
+    _message = reader.tgread_object()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 140, in tgread_object
+    raise error
+telethon.errors.common.TypeNotFoundError: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID eabcdd4d. See the FAQ for more details. Remaining bytes: b'M\xdd\xbc\xea@\x00\x00\x00\x00\x00\x00\x00\x8f\x01\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00E\'\x0fiiPlease write us more details about your case. Why do you think your account was blocked, what went wrong?\x00\x00\x85[>\xa0\x00\x00\x00\x00\xba\x03\x00\x00\x01\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00"\x14\x0b\x02+@\x02\x02\x10\x10\x00\x00\x00o\x9f\n\x00\x00\x00\x00\x15\xb6>VY\xec\xc0\x86\rSpam Info Bot\x00\x00\x07SpamBot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x00o\x9f\n\x13\x01\x08\x08\xb9\xf2l\xe86m\xf6\xff\x009\xa2\x8a*Nv\xcf\x04\x00\x00\x00\x04\x00\x00\x00jS!\x02"\x14\x0b\x02\x7f\x04\x00\x02\x10D\x00\x00\xa6\x92\xdf\xee\x01\x00\x00\x00m\xc8Q\xf1\xac\xfd\xd8>\x0e\xd0\x94\xd0\xbc\xd0\xb8\xd1\x82\xd1\x80\xd0\xb8\xd0\xb9\x00\x10\xd0\x9c\xd0\xb5\xd0\xb4\xd0\xb2\xd0\xb5\xd0\xb4\xd0\xb5\xd0\xb2\x00\x00\x00\x0bmedvedmitry\x0b79991097750\x06\xf7\xd1\x82\x02\x00\x00\x00T\x0bk\x1b:\xd9XH\x13\x01\x08\x08d\x8f\x06\xd6\x92+tu$\x80zb\x8a(\xa0\x0f\x02\x00\x00\x00I9\xb9\xedY(\x0fixd\x00\x00JU\xa0K\x15\xc4\xb5\x1c\x00\x00\x00\x00D\'\x0fi\x00\x00\x00\x00'
+2025-11-08 18:19:20,879 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.28.5, please report it)
+Traceback (most recent call last):
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 307, in _update_loop
+    diff = await self(get_diff)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+             ^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 637, in _handle_rpc_result
+    result = state.request.read_result(reader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\tlobject.py", line 219, in read_result
+    return reader.tgread_object()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\updates.py", line 241, in from_reader
+    _x = reader.tgread_object()
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Makar_Novikov\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 140, in tgread_object
+    raise error
+telethon.errors.common.TypeNotFoundError: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID eabcdd4d. See the FAQ for more details. Remaining bytes: b'M\xdd\xbc\xea\x82\x01\x00\x00\x00\x00\x00\x00\x8a\x01\x00\x00"\x17QY\xa6\x92\xdf\xee\x01\x00\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00=\'\x0fi\x06/start\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\xc7\x8a\xefl\x00\x00\x00\x00\x06\x00\x00\x00M\xdd\xbc\xea\xc0\x00\x00\x00\x00\x00\x00\x00\x8b\x01\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00=\'\x0fi{Your account was blocked for violations of the Telegram Terms of Service based on user reports confirmed by our moderators.\xd1\x99\xdd\x85\x01\x00\x00\x00\x15\xc4\xb5\x1c\x04\x00\x00\x00\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\nUnderstood\x00\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\x13I won\'t do it again\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\x15My account was hacked\x00\x00\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\x11This is a mistake\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\'\xd3\xa6v/\x00\x00\x00\x19\x00\x00\x00\x18https://telegram.org/tos\x00\x00\x00M\xdd\xbc\xea\x02\x01\x00\x00\x00\x00\x00\x00\x8c\x01\x00\x00"\x17QY\xa6\x92\xdf\xee\x01\x00\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00C\'\x0fi\x11This is a mistake\x00\x00M\xdd\xbc\xea@\x00\x00\x00\x00\x00\x00\x00\x8d\x01\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00C\'\x0fi\xfe\x0e\x01\x00If you think your account was blocked by mistake, you can submit a complaint. All complaints will be reviewed by the team\xe2\x80\x99s supervisor. Please note that this will have no effect on limitations that were applied with a good reason. Would you like to submit a complaint?\x00\x00\xd1\x99\xdd\x85\x01\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\x02No\x00\x83\x8b`w\x15\xc4\xb5\x1c\x01\x00\x00\x00\x80H\xfa\xa2\x03YesM\xdd\xbc\xea\x02\x01\x00\x00\x00\x00\x00\x00\x8e\x01\x00\x00"\x17QY\xa6\x92\xdf\xee\x01\x00\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00E\'\x0fi\x03YesM\xdd\xbc\xea@\x00\x00\x00\x00\x00\x00\x00\x8f\x01\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00E\'\x0fiiPlease write us more details about your case. Why do you think your account was blocked, what went wrong?\x00\x00\x85[>\xa0\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x04\x00\x00\x00\xd6\xbf\x90N\x8a\x01\x00\x00\x99\x08\xdc]\xa4\xe7D\xc7\xd6\xbf\x90N\x8c\x01\x00\x000\xcaF\xc0O\xccom\xd6\xbf\x90N\x8e\x01\x00\x00k\xa7\xc1\x00\x13h\x90\x0b\xbf!//"\x17QY\x00o\x9f\n\x00\x00\x00\x00\x8e\x01\x00\x00\xba\x03\x00\x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x00\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00"\x14\x0b\x02\x7f\x04\x00\x02\x10D\x00\x00\xa6\x92\xdf\xee\x01\x00\x00\x00m\xc8Q\xf1\xac\xfd\xd8>\x0e\xd0\x94\xd0\xbc\xd0\xb8\xd1\x82\xd1\x80\xd0\xb8\xd0\xb9\x00\x10\xd0\x9c\xd0\xb5\xd0\xb4\xd0\xb2\xd0\xb5\xd0\xb4\xd0\xb5\xd0\xb2\x00\x00\x00\x0bmedvedmitry\x0b79991097750\x06\xf7\xd1\x82\x02\x00\x00\x00T\x0bk\x1b:\xd9XH\x13\x01\x08\x08d\x8f\x06\xd6\x92+tu$\x80zb\x8a(\xa0\x0f\x02\x00\x00\x00I9\xb9\xedY(\x0fixd\x00\x00JU\xa0K"\x14\x0b\x02+@\x02\x02\x10\x10\x00\x00\x00o\x9f\n\x00\x00\x00\x00\x15\xb6>VY\xec\xc0\x86\rSpam Info Bot\x00\x00\x07SpamBot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x00o\x9f\n\x13\x01\x08\x08\xb9\xf2l\xe86m\xf6\xff\x009\xa2\x8a*Nv\xcf\x04\x00\x00\x00\x04\x00\x00\x00jS!\x02>*l\xa5\xba\x03\x00\x00\x00\x00\x00\x00M\'\x0fiz\x00\x00\x00\x03\x00\x00\x00'
